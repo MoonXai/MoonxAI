@@ -27,7 +27,7 @@ function updateImage() {
     const image = document.getElementById('main-image');
     const statusText = document.getElementById('status-text');
 
-    image.src = "loading.png";
+    //image.src = "loading.png";
     statusText.textContent = "Loading...";
     fadeImage();
 
