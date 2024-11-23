@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+}
+
+.title {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button-bar {
+    margin-bottom: 20px;
+}
+
+.ethnicity-button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #ddd;
+    transition: background-color 0.3s;
+}
+
+.ethnicity-button:hover {
+    background-color: #ccc;
+}
+
+.ethnicity-button.selected {
+    background-color: #007bff;
+    color: white;
+}
+
+.image-container {
+    margin: 20px 0;
+}
+
+#main-image {
+    max-width: 300px;
+    height: auto;
+    transition: opacity 1s;
+}
+
+.status-text {
+    font-size: 1.5em;
+    color: #555;
+}
+  
+.footer-text {
+    margin-top: 40px; /* Add top padding */
+    text-align: center; /* Center the text */
+    font-size: 14px; /* Optional: Adjust font size */
+    color: gray; /* Optional: Adjust text color */
+}
